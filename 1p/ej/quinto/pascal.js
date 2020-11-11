@@ -1,11 +1,12 @@
 var n=5;
 var j=n-1;
-var p;
+var p=[];
 for(var i=0;i<n;i++){
-    p=fac(j)/(fac(i)*fac(j-i));
-    console.log(p+' ');
+    p[i]=fac(j)/(fac(i)*fac(j-i));
 }
-
+p.forEach(element => {
+    console.log(element);    
+})
 function fac(x){
     var f=x;
     if (f==0){
