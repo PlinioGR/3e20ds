@@ -1,0 +1,12 @@
+var i=new Date();
+var n=new Map();
+n.set('4',Math.pow(10,4));
+var f=new Date()-i;
+console.info('Tiempo de ejecucion '+ f/1000+' segundos');
+i=new Date();
+n.set('5',Math.pow(10,5));
+f=new Date()-i;
+console.info('Tiempo de ejecucion '+ f/1000+' segundos');
+n.set('6',Math.pow(10,6));
+f=new Date()-i;
+console.info('Tiempo de ejecucion '+ f/1000+' segundos');
