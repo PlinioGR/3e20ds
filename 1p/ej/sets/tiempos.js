@@ -1,0 +1,12 @@
+var i=new Date();
+var n=new Set();
+n.add(4,Math.pow(10,4));
+var f=new Date()-i;
+console.info('Tiempo de ejecucion '+ f/1000+' segundos');
+i=new Date();
+n.add(5,Math.pow(10,5));
+f=new Date()-i;
+console.info('Tiempo de ejecucion '+ f/1000+' segundos');
+n.add(6,Math.pow(10,6));
+f=new Date()-i;
+console.info('Tiempo de ejecucion '+ f/1000+' segundos');
